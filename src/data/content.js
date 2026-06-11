@@ -70,6 +70,16 @@ export const serviceSection = {
       description: 'Engaging young hearts with fellowship, study, and fun activities.',
       time: 'Saturday 6:00 PM',
     },
+    {
+      title: 'Youth Camp',
+      description: 'A yearly retreat for youth to grow in faith, build friendships, and have fun.',
+      time: 'Once a year, dates announced in advance',
+    },
+    {
+      title: 'Prayer mountain',
+      description: 'A quarterly gathering for prayer and spiritual growth.',
+      time: 'Four times a year, dates announced in advance',
+    },
   ],
 }
 
@@ -89,7 +99,7 @@ export const ministriesSection = {
     {
       title: 'Outreach',
       description:
-        'Care for our neighbors through service, meals, and community projects.',
+        'Spreading the Gospel through local service projects, evangelism, and community care.',
     },
   ],
 }
