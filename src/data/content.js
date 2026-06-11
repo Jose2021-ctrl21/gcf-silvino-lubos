@@ -17,7 +17,7 @@ export const heroContent = {
     description:
       'Join us for inspiring worship, Scripture teaching, and fellowship.',
     items: [
-      'Sunday Worship: 8:00 AM & 11:00 AM',
+      'Sunday Worship: 8:00 AM - 11:00 AM',
       'Midweek Prayer: Wednesday 6:00 PM',
       'Youth Gathering: Saturday 6:00 PM',
     ],
