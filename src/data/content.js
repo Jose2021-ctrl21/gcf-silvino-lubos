@@ -58,7 +58,7 @@ export const serviceSection = {
     {
       title: 'Sunday Worship',
       description: 'Join us for heartfelt music, Scripture, and a message of hope.',
-      time: '8:00 AM & 11:00 AM',
+      time: '8:00 AM - 11:00 AM',
     },
     {
       title: 'Midweek Prayer',
