@@ -7,7 +7,7 @@ export const navLinks = [
 
 export const heroContent = {
   badge: 'Join Us This Sunday',
-  title: 'Growing Together in Christ',
+  title: 'The Mark of Holy Spirit',
   description:
     'Greenhills Christian Fellowship invites you to worship, connect, and serve with us. We are a family-focused church committed to sharing faith, hope, and community in the heart of Greenhills.',
   primaryButton: { label: 'Service Times', href: '#services' },
@@ -58,17 +58,17 @@ export const serviceSection = {
     {
       title: 'Sunday Worship',
       description: 'Join us for heartfelt music, Scripture, and a message of hope.',
-      time: '9:00 AM & 11:00 AM',
+      time: '8:00 AM & 11:00 AM',
     },
     {
       title: 'Midweek Prayer',
-      description: 'Gather with believers for prayer, encouragement, and community.',
-      time: 'Wednesday 7:00 PM',
+      description: 'Gather with believers for prayer meeting, encouragement, and praying one another.',
+      time: 'Wednesday 6:00 PM',
     },
     {
       title: 'Youth Group',
       description: 'Engaging young hearts with fellowship, study, and fun activities.',
-      time: 'Friday 6:30 PM',
+      time: 'Saturday 6:00 PM',
     },
   ],
 }
@@ -100,9 +100,9 @@ export const contactSection = {
   title: 'Visit Greenhills Christian Fellowship Silvino Lubos',
   details: [
     'Poblacion 1',
-    'Silvino Lubos Northern Samar, 1614',
-    'Email: hello@gcfchurch.org',
-    'Phone: (02) 1234-5678',
+    'Silvino Lubos Northern Samar, 6414',
+    'Email: gcfsilvinolubos@gmail.com',
+    'Phone: 09300373935',
   ],
   description:
     'We welcome visitors every week. Come as you are for worship, prayer, and fellowship. Meet our pastors, join a small group, or learn more about how you can belong.',
