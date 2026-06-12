@@ -97,7 +97,6 @@ img {
   padding: 10px;
   min-width: 44px;
   min-height: 44px;
-  display: inline-flex;
   flex-direction: column;
   gap: 6px;
   align-items: center;
