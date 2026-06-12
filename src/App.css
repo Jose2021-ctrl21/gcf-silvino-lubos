@@ -97,6 +97,9 @@ img {
   padding: 10px;
   min-width: 44px;
   min-height: 44px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
   align-items: center;
   justify-content: center;
   z-index: 30;
@@ -106,14 +109,14 @@ img {
   display: block;
   width: 26px;
   height: 3px;
-  margin: 5px 0;
   border-radius: 999px;
   background: #e7f6e9;
   transition: transform 0.25s ease, opacity 0.25s ease;
+  transform-origin: center;
 }
 
 .hamburger-button.open span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
+  transform: translateY(9px) rotate(45deg);
 }
 
 .hamburger-button.open span:nth-child(2) {
@@ -121,9 +124,7 @@ img {
 }
 
 .hamburger-button.open span:nth-child(3) {
-  margin-top: 37px;
-  margin-left:-52px;
-  transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-9px) rotate(-45deg);
 }
 
 .hero-section {
