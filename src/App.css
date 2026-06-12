@@ -121,6 +121,8 @@ img {
 }
 
 .hamburger-button.open span:nth-child(3) {
+  margin-top: 37px;
+  margin-left:-52px;
   transform: translateY(-8px) rotate(-45deg);
 }
 

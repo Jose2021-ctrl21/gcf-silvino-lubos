@@ -3,13 +3,16 @@ export const navLinks = [
   { id: 'services', label: 'Services', href: '#services' },
   { id: 'ministries', label: 'Ministries', href: '#ministries' },
   { id: 'contact', label: 'Contact', href: '#contact' },
+  { id: 'Testimonies', label: 'Testimonies', href: '#testimonies' },
+  { id: 'Members', label: 'Members', href: '#members' },
+  { id: 'Giving', label: 'Giving', href: '#giving' },
 ]
 
 export const heroContent = {
   badge: 'Join Us This Sunday',
-  title: 'The Mark of Holy Spirit',
+  title: 'Not By Might But By My Spirit',
   description:
-    'Greenhills Christian Fellowship invites you to worship, connect, and serve with us. We are a family-focused church committed to sharing faith, hope, and community in the heart of Greenhills.',
+    'Greenhills Christian Fellowship invites you to worship, connect, and serve with us. We are a family-focused church committed to sharing faith, hope, and community.',
   primaryButton: { label: 'Service Times', href: '#services' },
   secondaryButton: { label: 'Visit Us', href: '#contact' },
   card: {
