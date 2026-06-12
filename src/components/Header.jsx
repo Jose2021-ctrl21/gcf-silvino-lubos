@@ -1,4 +1,4 @@
-import heroImg from '../assets/hero.png'
+import heroImg from '../assets/gcf_logo.jpg'
 import { navLinks } from '../data/content.js'
 
 function Header({ menuOpen, onToggle }) {
