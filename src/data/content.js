@@ -1,11 +1,81 @@
 export const navLinks = [
-  { id: 'about', label: 'About', href: '#about' },
-  { id: 'services', label: 'Services', href: '#services' },
-  { id: 'ministries', label: 'Ministries', href: '#ministries' },
-  { id: 'contact', label: 'Contact', href: '#contact' },
-  { id: 'Testimonies', label: 'Testimonies', href: '#testimonies' },
-  { id: 'Members', label: 'Members', href: '#members' },
-  { id: 'Giving', label: 'Giving', href: '#giving' },
+  {
+    id: 'about',
+    label: 'About',
+    href: '#about',
+    subLinks: [
+      { id: 'history', label: 'GCF Silvino Lubos History', href: '#about' },
+      { id: 'pastors', label: 'Pastors', href: '#about' },
+      { id: 'doctrine', label: 'Doctrine', href: '#about' },
+      { id: 'beliefs', label: 'Beliefs', href: '#about' },
+    ],
+  },
+  {
+    id: 'services',
+    label: 'Services',
+    href: '#services',
+    subLinks: [
+      { id: 'sunday-worship', label: 'Sunday Worship', href: '#services' },
+      { id: 'midweek-prayer', label: 'Midweek Prayer', href: '#services' },
+      { id: 'youth-group', label: 'Youth Group', href: '#services' },
+      { id: 'bible-study', label: 'Bible Study', href: '#services' },
+    ],
+  },
+  {
+    id: 'ministries',
+    label: 'Ministries',
+    href: '#ministries',
+    subLinks: [
+      { id: 'children', label: 'Children', href: '#ministries' },
+      { id: 'small-groups', label: 'Small Groups', href: '#ministries' },
+      { id: 'outreach', label: 'Outreach', href: '#ministries' },
+      { id: 'missions', label: 'Missions', href: '#ministries' },
+    ],
+  },
+  {
+    id: 'contact',
+    label: 'Contact',
+    href: '#contact',
+    subLinks: [
+      { id: 'location', label: 'Location', href: '#contact' },
+      { id: 'visit-us', label: 'Visit Us', href: '#contact' },
+      { id: 'prayer-requests', label: 'Prayer Requests', href: '#contact' },
+      { id: 'email', label: 'Email Team', href: '#contact' },
+    ],
+  },
+  {
+    id: 'testimonies',
+    label: 'Testimonies',
+    href: '#testimonies',
+    subLinks: [
+      { id: 'life-change', label: 'Life Change Stories', href: '#testimonies' },
+      { id: 'healing', label: 'Healing Testimonies', href: '#testimonies' },
+      { id: 'youth-voices', label: 'Youth Voices', href: '#testimonies' },
+      { id: 'family-stories', label: 'Family Stories', href: '#testimonies' },
+    ],
+  },
+  {
+    id: 'members',
+    label: 'Members',
+    href: '#members',
+    subLinks: [
+      { id: 'member-care', label: 'Member Care', href: '#members' },
+      { id: 'new-believers', label: 'New Believers', href: '#members' },
+      { id: 'leadership', label: 'Leadership', href: '#members' },
+      { id: 'volunteers', label: 'Volunteer Team', href: '#members' },
+    ],
+  },
+  {
+    id: 'giving',
+    label: 'Giving',
+    href: '#giving',
+    subLinks: [
+      { id: 'online-giving', label: 'Online Giving', href: '#giving' },
+      { id: 'tithes-offerings', label: 'Tithes & Offerings', href: '#giving' },
+      { id: 'mission-support', label: 'Mission Support', href: '#giving' },
+      { id: 'special-projects', label: 'Special Projects', href: '#giving' },
+    ],
+  },
 ]
 
 export const heroContent = {

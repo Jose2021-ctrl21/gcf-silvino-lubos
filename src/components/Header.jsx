@@ -27,9 +27,21 @@ function Header({ menuOpen, onToggle }) {
 
         <nav className={`main-nav ${menuOpen ? 'open' : ''}`} aria-label="Primary navigation">
           {navLinks.map((link) => (
-            <a key={link.id} href={link.href} onClick={() => onToggle(false)}>
-              {link.label}
-            </a>
+            <div key={link.id} className={`nav-item ${link.subLinks ? 'nav-with-submenu' : ''}`}>
+              <a href={link.href} onClick={() => onToggle(false)}>
+                {link.label}
+              </a>
+              {link.subLinks ? (
+                <div className="submenu-card" aria-label={`${link.label} submenu`}>
+                  <h3>{link.label}</h3>
+                  {link.subLinks.map((subLink) => (
+                    <a key={subLink.id} href={subLink.href} onClick={() => onToggle(false)}>
+                      {subLink.label}
+                    </a>
+                  ))}
+                </div>
+              ) : null}
+            </div>
           ))}
         </nav>
       </div>
